@@ -2,7 +2,6 @@
 
 A sleek, dark-themed flashcard application perfect for studying SAT vocabulary, foreign languages, or any subject that benefits from active recall. Features a modern interface with smooth animations, progress tracking, and celebratory confetti when you complete a deck!
 
-![Flashcard App Screenshot](https://via.placeholder.com/800x400/1a1a1a/4facfe?text=Flashcard+Study+App)
 
 ## ✨ Features
 
