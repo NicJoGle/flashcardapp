@@ -1,0 +1,45 @@
+# Flashcard Format Instructions
+# Each flashcard must follow this exact format:
+# Q: [Your question here]
+# A: [Your answer here]
+# 
+# Rules:
+# - Each question must start with "Q: " (capital Q, colon, space)
+# - Each answer must start with "A: " (capital A, colon, space)
+# - Leave a blank line between each flashcard pair
+# - Questions and answers can span multiple lines if needed
+# - Comments start with # and are ignored by the app
+#
+# Example:
+# Q: What does "ubiquitous" mean?
+# A: Present, appearing, or found everywhere; omnipresent
+
+Q: What does "ubiquitous" mean?
+A: Present, appearing, or found everywhere; omnipresent
+
+Q: What is the definition of "sagacious"?
+A: Having or showing keen mental discernment and good judgment; wise
+
+Q: What does "ameliorate" mean?
+A: To make something better; improve
+
+Q: Define "disparate"
+A: Essentially different in kind; not allowing comparison
+
+Q: What does "ephemeral" mean?
+A: Lasting for a very short time; transitory
+
+Q: What is the meaning of "perfunctory"?
+A: Carried out with a minimum of effort or reflection; superficial
+
+Q: Define "verbose"
+A: Using or expressed in more words than are needed; wordy
+
+Q: What does "tenacious" mean?
+A: Tending to keep a firm hold of something; clinging or adhering closely
+
+Q: What is the definition of "lucid"?
+A: Expressed clearly; easy to understand
+
+Q: Define "sanguine"
+A: Optimistic or positive, especially in an apparently bad or difficult situation

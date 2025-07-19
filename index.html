@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Flashcard App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Flashcard Study App</h1>
+            <div class="header-controls">
+                <div class="subject-input-container">
+                    <label for="subjectInput">Studying for:</label>
+                    <input type="text" id="subjectInput" placeholder="SAT, ACT, Spanish, etc." />
+                </div>
+                <div class="file-input-container">
+                    <input type="file" id="fileInput" accept=".txt" />
+                    <label for="fileInput" class="file-label">Load Flashcards</label>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="flashcard-container">
+                <div class="flashcard" id="flashcard">
+                    <div class="card-content" id="cardContent">
+                        <p>Load a flashcard file to begin studying</p>
+                    </div>
+                    <div class="card-type" id="cardType">Instructions</div>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button id="prevBtn" class="control-btn" disabled>Previous</button>
+                <button id="flipBtn" class="control-btn" disabled>Flip Card</button>
+                <button id="nextBtn" class="control-btn" disabled>Next</button>
+            </div>
+
+            <div class="progress">
+                <span id="cardCounter">0 / 0</span>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="instructions">
+                <h3>How to use:</h3>
+                <ul>
+                    <li>Create a text file with your flashcards</li>
+                    <li>Format: "Q: question" followed by "A: answer"</li>
+                    <li>Separate each card with a blank line</li>
+                    <li>Click "Load Flashcards" to upload your file</li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
