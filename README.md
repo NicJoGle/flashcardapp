@@ -133,4 +133,4 @@ If you encounter any problems or have suggestions for improvement, feel free to 
 **Happy studying! 📚✨**
 
 > *Remember: The key to effective flashcard studying is active recall. Always try to answer the question before flipping the card!*
-## Note: This is an experiment with Claude Code. Everything here was written by Claude, a Large Language Model developed by Anthropic. You can find more about Claude here https://www.anthropic.com/claude
+Note: This is an experiment with Claude Code. Everything here was written by Claude, a Large Language Model developed by Anthropic. You can find more about Claude here https://www.anthropic.com/claude
