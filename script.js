@@ -186,25 +186,26 @@ class FlashcardApp {
         if (this.flashcards.length === 0) return;
         
         this.isShowingAnswer = !this.isShowingAnswer;
-        this.showCurrentCard();
-    }
-    
-    nextCard() {
-        if (this.flashcards.length === 0) return;
         
-        // Mark current card as viewed if showing answer
+        // Mark current card as reviewed when flipping to answer
         if (this.isShowingAnswer) {
             this.viewedCards.add(this.currentIndex);
         }
         
-        this.currentIndex = (this.currentIndex + 1) % this.flashcards.length;
-        this.isShowingAnswer = false;
         this.showCurrentCard();
         
         // Check if deck is completed
         if (this.viewedCards.size === this.flashcards.length) {
             this.celebrateCompletion();
         }
+    }
+    
+    nextCard() {
+        if (this.flashcards.length === 0) return;
+        
+        this.currentIndex = (this.currentIndex + 1) % this.flashcards.length;
+        this.isShowingAnswer = false;
+        this.showCurrentCard();
     }
     
     previousCard() {
