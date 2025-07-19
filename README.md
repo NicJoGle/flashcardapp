@@ -17,10 +17,11 @@ A sleek, dark-themed flashcard application perfect for studying SAT vocabulary, 
 ## 🚀 Quick Start
 
 1. **Download the files** to your computer
-2. **Open `index.html`** in any modern web browser
-3. **Enter your subject** (e.g., "SAT", "Spanish", "Biology") in the input field
-4. **Click "Load Flashcards"** and select your flashcard file
-5. **Start studying!** Use the buttons or keyboard to navigate
+2. **Unzip** all the files (Important!)
+3. **Open `index.html`** in any modern web browser
+4. **Enter your subject** (e.g., "SAT", "Spanish", "Biology") in the input field
+5. **Click "Load Flashcards"** and select your flashcard file
+6. **Start studying!** Use the buttons or keyboard to navigate
 
 ## 📝 Creating Flashcards
 
@@ -134,4 +135,4 @@ If you encounter any problems or have suggestions for improvement, feel free to 
 
 > *Remember: The key to effective flashcard studying is active recall. Always try to answer the question before flipping the card!*
 >  
-> Note: This is an experiment with Claude Code. Everything here was written by Claude, a Large Language Model developed by Anthropic. You can find more about Claude here https://www.anthropic.com/claude
+> Note: This is an experiment with Claude Code. Nearly here was written by Claude, a Large Language Model developed by Anthropic. You can find more about Claude here at https://www.anthropic.com/claude
