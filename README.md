@@ -122,7 +122,7 @@ Want to modify the app? Here are some easy customizations:
 
 ## 📄 License
 
-This project is open source and available under the MIT License. Feel free to use, modify, and share!
+This project is open source and available under the Apache 2.0 License. Feel free to use, modify, and share!
 
 ## 🐛 Issues or Questions?
 
@@ -133,3 +133,4 @@ If you encounter any problems or have suggestions for improvement, feel free to 
 **Happy studying! 📚✨**
 
 > *Remember: The key to effective flashcard studying is active recall. Always try to answer the question before flipping the card!*
+# Note: This is an experiment with Claude Code. Everything here was written by Claude, a Large Language Model developed by Anthropic. You can find more about Claude here https://www.anthropic.com/claude
